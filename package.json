@@ -1,6 +1,6 @@
 {
-  "name": "vuedirective",
-  "version": "1.0.0",
+  "name": "vue-directive-xf",
+  "version": "1.0.1",
   "description": "Vue 指令",
   "files": [
     "dist"
@@ -13,7 +13,6 @@
     "directive",
     "指令"
   ],
-  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/jiangqa/vueDirective.git"
