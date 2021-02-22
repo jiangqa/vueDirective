@@ -1,3 +1,11 @@
+
+```
+npm i vue-directive-xf --save
+```
+```
+main.js
+import 'vue-directive-xf/dist/action'
+```
 ### v-action
  1.用法 v-action:权限字符串 
  2.登陆后将权限列表存储到 sessionStorage.setItem('permissions',JSON.stringify(permissions array))
