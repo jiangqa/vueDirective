@@ -1,0 +1,23 @@
+{
+  "name": "vuedirective",
+  "version": "1.0.0",
+  "description": "Vue 指令",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "directive",
+    "指令"
+  ],
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiangqa/vueDirective.git"
+  },
+  "author": "jiangqa<jiangqiuan@163.com>",
+  "license": "ISC"
+}
