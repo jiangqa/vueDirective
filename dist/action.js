@@ -9,7 +9,7 @@ import Vue from 'vue'
 const action = Vue.directive('action', {
   inserted: function(el, binding) {
     console.log(binding)
-    const actionName = binding.arg
+    const actionName = binding.value
     JSON.parse(sessionStorage.getItem('permissions') || '[]').indexOf(
       actionName
     ) === -1

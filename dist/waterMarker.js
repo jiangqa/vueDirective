@@ -24,7 +24,7 @@ function addWaterMarker(str, parentNode) {
  */
 const water = Vue.directive('water', {
   inserted: function(el, binding) {
-    addWaterMarker(binding.arg || localStorage.getItem('userStr'), el)
+    addWaterMarker(binding.value || localStorage.getItem('userStr'), el)
   }
 })
 export default water
